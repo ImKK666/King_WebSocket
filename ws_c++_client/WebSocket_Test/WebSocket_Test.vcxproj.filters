@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="King_WebSocket">
+      <UniqueIdentifier>{9545538d-7370-4ccb-b75f-d92acfc73770}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="King_WebSocket\easywsclient">
+      <UniqueIdentifier>{368c131d-93de-4a43-9611-54dc2e9c2132}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Config">
+      <UniqueIdentifier>{a24db06e-5f8e-45e6-898c-cc8f012055be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="configor">
+      <UniqueIdentifier>{f04c4c23-3537-42fe-b9d9-8a5f9e0a566a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="King_WebSocket\King_WebSocket.cpp">
+      <Filter>King_WebSocket</Filter>
+    </ClCompile>
+    <ClCompile Include="King_WebSocket\easywsclient\easywsclient.cpp">
+      <Filter>King_WebSocket\easywsclient</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>Config</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="configor\configor.hpp">
+      <Filter>configor</Filter>
+    </ClInclude>
+    <ClInclude Include="configor\configor_conversion.hpp">
+      <Filter>configor</Filter>
+    </ClInclude>
+    <ClInclude Include="configor\configor_declare.hpp">
+      <Filter>configor</Filter>
+    </ClInclude>
+    <ClInclude Include="configor\configor_encoding.hpp">
+      <Filter>configor</Filter>
+    </ClInclude>
+    <ClInclude Include="configor\configor_exception.hpp">
+      <Filter>configor</Filter>
+    </ClInclude>
+    <ClInclude Include="configor\configor_iterator.hpp">
+      <Filter>configor</Filter>
+    </ClInclude>
+    <ClInclude Include="configor\configor_parser.hpp">
+      <Filter>configor</Filter>
+    </ClInclude>
+    <ClInclude Include="configor\configor_serializer.hpp">
+      <Filter>configor</Filter>
+    </ClInclude>
+    <ClInclude Include="configor\configor_stream.hpp">
+      <Filter>configor</Filter>
+    </ClInclude>
+    <ClInclude Include="configor\configor_token.hpp">
+      <Filter>configor</Filter>
+    </ClInclude>
+    <ClInclude Include="configor\configor_value.hpp">
+      <Filter>configor</Filter>
+    </ClInclude>
+    <ClInclude Include="configor\configor_wrapper.hpp">
+      <Filter>configor</Filter>
+    </ClInclude>
+    <ClInclude Include="configor\json.hpp">
+      <Filter>configor</Filter>
+    </ClInclude>
+    <ClInclude Include="King_WebSocket\King_WebSocket.hpp">
+      <Filter>King_WebSocket</Filter>
+    </ClInclude>
+    <ClInclude Include="King_WebSocket\easywsclient\easywsclient.hpp">
+      <Filter>King_WebSocket\easywsclient</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.hpp">
+      <Filter>Config</Filter>
+    </ClInclude>
+    <ClInclude Include="configor\fifo_map.hpp">
+      <Filter>configor</Filter>
+    </ClInclude>
+    <ClInclude Include="King_WebSocket\King_Queue.hpp">
+      <Filter>King_WebSocket</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
